@@ -12,7 +12,6 @@ package ambulance_wl
 
 // Condition - Describes disease, symptoms, or other reasons of patient   visit
 type Condition struct {
-
 	Value string `json:"value"`
 
 	Code string `json:"code,omitempty"`

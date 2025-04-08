@@ -21,7 +21,7 @@ type AmbulanceWaitingListAPI interface {
     // Saves new entry into waiting list 
      CreateWaitingListEntry(c *gin.Context)
 
-    // DeleteWaitingListEntry Delete /api/waiting-list/:ambulanceId/entries/:entryId
+    // DeleteWaitingListEntry Delete /api/waiting-list/:ambulanceId/condition
     // Deletes specific entry 
      DeleteWaitingListEntry(c *gin.Context)
 
@@ -33,7 +33,7 @@ type AmbulanceWaitingListAPI interface {
     // Provides details about waiting list entry 
      GetWaitingListEntry(c *gin.Context)
 
-    // UpdateWaitingListEntry Put /api/waiting-list/:ambulanceId/entries/:entryId
+    // UpdateWaitingListEntry Put /api/waiting-list/:ambulanceId/condition
     // Updates specific entry 
      UpdateWaitingListEntry(c *gin.Context)
 
